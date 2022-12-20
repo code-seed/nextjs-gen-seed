@@ -2,15 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
-/*
-import * as path from 'path';
-// import { outputFile, outputFileSync, readFileSync } from 'fs-extra/esm'
-import { readFileSync } from 'fs-extra'
-const file_name = ['.', 'api', 'hello.js'].join(path.sep)
-const test_str = readFileSync(file_name, 'utf-8')
 
-consolellog(test_str.length)
-*/
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
